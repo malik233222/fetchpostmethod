@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    width: 100%;
+    background-color: #f0f2f5;
+    padding: 167px 0;
+    float: left;
+}
+
+.orta {
+    width: 70%;
+    margin: 0 auto;
+
+
+}
+
+.sol,
+.sag {
+    width: 50%;
+
+    float: left;
+
+}
+
+.logo {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.logo img {
+    width: 270px;
+    margin-left: -30px;
+    margin-bottom: -20px;
+}
+
+.title {
+    width: 85%;
+}
+
+.title h1 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.qutu {
+    width: 380px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 7px 13px 1px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.form {
+    width: 100%;
+}
+
+.form input {
+    width: 100%;
+    padding: 15px;
+    height: 55px;
+    border-radius: 7px;
+    border: 1px solid #dbdbdb;
+    font-size: 17px;
+
+}
+
+.giris {
+    width: 100%;
+
+}
+
+.giris button {
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    height: 50px;
+    border-radius: 7px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.unutdum {
+    width: 100%;
+    text-align: center;
+
+}
+
+.unutdum a {
+    color: #1877f2;
+    font-size: 15px;
+
+}
+
+.xett {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 15px;
+    background-color: #dbdbdb;
+}
+
+.yenihesab {
+    width: 100%;
+    text-align: center;
+}
+
+.yenihesab a {
+    background-color: #42b72a;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.asagi{
+    width: 380px;
+    text-align: center;
+    margin: 25px auto 0px;
+    
+}
+.asagi a{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+.asagi span{
+    font-size: 15px;
+}
+@media(min-width:300px) and (max-width:900px){
+    .sol,.sag, .asagi,.title{
+        width: 100%;
+        text-align: center;
+    }
+    section{
+        padding: 87px 0;
+    }
+}
